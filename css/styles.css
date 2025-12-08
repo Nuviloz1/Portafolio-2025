@@ -1,0 +1,69 @@
+/* RESET BÁSICO E FONTES */
+body {
+    /* Define a fonte padrão para o corpo */
+    font-family: 'Arial', sans-serif; 
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0; /* Remove preenchimento padrão do navegador */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    color: #333; /* Cor do texto padrão */
+}
+
+/* ESTILO DO CABEÇALHO (HEADER) E NAVEGAÇÃO (NAV) */
+header {
+    background-color: #3498db; /* Azul profissional para o fundo */
+    color: white; /* Cor da letra branca */
+    padding: 1rem 0; /* Espaçamento interno em cima e embaixo */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; /* Remove margem padrão do título */
+    font-size: 2.2rem;
+}
+
+nav ul {
+    list-style: none; /* Remove os pontos da lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Coloca os links lado a lado */
+    justify-content: center; /* Centraliza os links */
+}
+
+nav ul li a {
+    color: white; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+/* ESTILO DAS SEÇÕES PRINCIPAIS (MAIN) */
+main {
+    max-width: 1000px; /* Limita a largura do conteúdo central */
+    margin: 2rem auto; /* Centraliza o conteúdo e dá margem externa */
+    padding: 0 20px;
+}
+
+section {
+    background-color: white; /* Fundo branco para as caixas de seção */
+    padding: 20px;
+    margin-bottom: 20px; /* Espaço entre as seções */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+section h2 {
+    color: #2c3e50; /* Título secundário (azul escuro) */
+    border-bottom: 2px solid #3498db; /* Linha de separação azul */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* ESTILO PARA AS LISTAS DENTRO DAS SEÇÕES */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
